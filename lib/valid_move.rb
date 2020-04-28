@@ -5,8 +5,8 @@
 def position_taken?(board, move_index)
   position= board[move_index]
   if (position= "" || position = " " || position = nil)
-    return true 
+    return false
   else 
-    return false 
+    return true 
   end 
 end
